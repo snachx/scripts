@@ -1,9 +1,9 @@
 {
   "id": "snachx.app.sub",
   "name": "chavyleung 应用订阅补全",
-  "author": "@chavyleung",
-  "icon": "https://avatars3.githubusercontent.com/u/29748519?s=460&u=392a19e85465abbcb1791c9b8b32184a16e6795e&v=4",
-  "repo": "https://github.com/chavyleung/scripts",
+  "author": "@snachx",
+  "icon": "https://avatars2.githubusercontent.com/u/2197143?s=460&v=4",
+  "repo": "https://github.com/snachx/scripts",
   "apps": [
     {
       "id": "ximalaya",
@@ -13,6 +13,15 @@
       "repo": "https://github.com/chavyleung/scripts/tree/master/ximalaya",
       "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js",
       "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/ximalaya.png", "https://raw.githubusercontent.com/Orz-3/task/master/ximalaya.png"]
+    },
+    {
+      "id": "duokan",
+      "name": "多看阅读",
+      "keys": ["duokan_cookie", "duokan_device_id"],
+      "author": "@Hyseen",
+      "repo": "https://github.com/chavyleung/scripts/tree/master/duokan",
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/duokan.png", "https://raw.githubusercontent.com/Orz-3/task/master/duokan.png"]
     }
   ]
 }
