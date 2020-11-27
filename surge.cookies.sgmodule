@@ -4,6 +4,7 @@
 
 [Script]
 Rewrite: 爱奇艺 = type=http-request,pattern=https?:\/\/.*\.iqiyi\.com\/.*authcookie=,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+Rewrite: Bili漫画 = type=http-request,pattern=^https:\/\/passport\.biligame\.com\/api\/login\/sso.+?version%22%3A%22(3|4|5),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Bilibili-DailyBonus/Manga.js
 Rewrite: 多看阅读 = type=http-request,pattern=https:\/\/www\.duokan\.com\/checkin\/v0\/status,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.cookie.js,requires-body=true
 Rewrite: 飞客茶馆 = type=http-request,pattern=https:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=getdata&.*,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.cookie.js
 Rewrite: 京东 = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
@@ -14,4 +15,4 @@ Rewrite: 网易云音乐 = type=http-request,pattern=https:\/\/music.163.com\/we
 Rewrite: 喜马拉雅 = type=http-request,pattern=https?:\/\/.*\/mobile\-user\/homePage\/.*,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.cookie.js
 
 [MITM]
-hostname = %APPEND% *.iqiyi.com, www.duokan.com, www.flyertea.com, api.m.jd.com, i.meituan.com, *.smzdm.com, *.video.qq.com, music.163.com, mobwsa.ximalaya.com
+hostname = %APPEND% *.iqiyi.com, passport.biligame.com, www.duokan.com, www.flyertea.com, api.m.jd.com, i.meituan.com, *.smzdm.com, *.video.qq.com, music.163.com, mobwsa.ximalaya.com
