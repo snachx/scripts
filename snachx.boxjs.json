@@ -6,15 +6,6 @@
   "repo": "https://github.com/snachx/scripts",
   "apps": [
     {
-      "id": "ximalaya",
-      "name": "喜马拉雅",
-      "keys": ["chavy_cookie_ximalaya"],
-      "author": "@chavyleung",
-      "repo": "https://github.com/chavyleung/scripts/tree/master/ximalaya",
-      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/ximalaya/ximalaya.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/ximalaya.png", "https://raw.githubusercontent.com/Orz-3/task/master/ximalaya.png"]
-    },
-    {
       "id": "duokan",
       "name": "多看阅读",
       "keys": ["duokan_cookie", "duokan_device_id"],
