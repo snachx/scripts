@@ -12,7 +12,16 @@
       "author": "@Hyseen",
       "repo": "https://github.com/chavyleung/scripts/tree/master/duokan",
       "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/duokan.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/duokan.png", "https://raw.githubusercontent.com/Orz-3/task/master/duokan.png"]
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/duokan.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/duokan.png"]
+    },
+    {
+      "id": "duokanDailyFree",
+      "name": "多看每日限免",
+      "keys": ["duokan_cookie", "duokan_device_id"],
+      "author": "@snachx",
+      "repo": "https://github.com/snachx/scripts/tree/master/duokan",
+      "script": "https://raw.githubusercontent.com/snachx/scripts/master/duokan/duokan-daily-free.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/duokan.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/duokan.png"]
     },
     {
       "id": "flyertea",
@@ -20,8 +29,8 @@
       "keys": ["chavy_cookie_flyertea", "chavy_token_flyertea"],
       "author": "@chavyleung",
       "repo": "https://github.com/chavyleung/scripts/tree/master/flyertea",
-      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/duokan/flyertea.js",
-      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/flyertea.png", "https://raw.githubusercontent.com/Orz-3/task/master/flyertea.png"]
+      "script": "https://raw.githubusercontent.com/chavyleung/scripts/master/flyertea/flyertea.js",
+      "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/flyertea.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/flyertea.png"]
     }
   ]
 }
